@@ -5,11 +5,15 @@ const Sidebar = () => (
   <Container>
     {' '}
     <ul>
-      <li>Teste 1</li>
-      <li>Teste 1</li>
-      <li>Teste 1</li>
-      <li>Teste 1</li>
-      <li>Teste 1</li>
+      <li>
+        <img src="https://avatars0.githubusercontent.com/u/22628987?v=4" alt="img" />
+        <div id="description">
+          <p> Ilton Karly</p>
+          <span>iltonkp</span>
+        </div>
+        <button type="button">x</button>
+        <span> > </span>
+      </li>
     </ul>
   </Container>
 );

@@ -8,6 +8,12 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
   }
 
+  body{
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: sans-serif;
+  }
+
 `;
 
 export default GlobalStyle;
